@@ -1,77 +1,230 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <title>Campeonato Municipal – Tabela Dinâmica</title>
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeonato Municipal</title>
+    <!-- Bootstrap CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para os ícones (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...SUA_INTEGRIDADE..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: #e9ecef;
+        }
+
+        .navbar-brand img {
+            max-height: 50px; /* Ajuste a altura da logo */
+            margin-right: 20px;
+        }
+
+        .nav-link {
+            font-size: 1.2em;
+        }
+
+        .icon-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .icon-link i {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        .icon-link span {
+            text-align: center;
+        }
+
+        .container-fluid {
+          padding: 20px;
+        }
+    </style>
 </head>
 <body>
-  <header class="bg-primary text-white py-3 mb-4">
-    <div class="container">
-      <h1 class="h3">Campeonato Municipal 2025</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="URL_DA_LOGO.png" alt="Logo do Campeonato">
+                Campeonato Municipal
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fase_classificatoria">Fase Classificatória</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fase_repescagem">Fase Repescagem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fases_finais">Fases Finais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artilheiros">Artilheiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#premiacoes">Premiações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#adicoes_anterioes">Adições Anteriores</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <section id="fase_classificatoria">
+            <h2>Fase Classificatória</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Coluna 1</th>
+                            <th>Coluna 2</th>
+                            <!-- Adicione mais colunas conforme necessário -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dado 1</td>
+                            <td>Dado 2</td>
+                            <!-- Adicione mais dados conforme necessário -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="fase_repescagem">
+            <h2>Fase Repescagem</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Coluna 1</th>
+                            <th>Coluna 2</th>
+                            <!-- Adicione mais colunas conforme necessário -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dado 1</td>
+                            <td>Dado 2</td>
+                            <!-- Adicione mais dados conforme necessário -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="fases_finais">
+            <h2>Fases Finais</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Coluna 1</th>
+                            <th>Coluna 2</th>
+                            <!-- Adicione mais colunas conforme necessário -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dado 1</td>
+                            <td>Dado 2</td>
+                            <!-- Adicione mais dados conforme necessário -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="artilheiros">
+            <h2>Artilheiros</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Coluna 1</th>
+                            <th>Coluna 2</th>
+                            <!-- Adicione mais colunas conforme necessário -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dado 1</td>
+                            <td>Dado 2</td>
+                            <!-- Adicione mais dados conforme necessário -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="premiacoes">
+            <h2>Premiações</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Coluna 1</th>
+                            <th>Coluna 2</th>
+                            <!-- Adicione mais colunas conforme necessário -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dado 1</td>
+                            <td>Dado 2</td>
+                            <!-- Adicione mais dados conforme necessário -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="adicoes_anterioes">
+            <h2>Adições Anteriores</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Coluna 1</th>
+                            <th>Coluna 2</th>
+                            <!-- Adicione mais colunas conforme necessário -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dado 1</td>
+                            <td>Dado 2</td>
+                            <!-- Adicione mais dados conforme necessário -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </div>
-  </header>
 
-  <main class="container">
-    <h2 class="h5 mb-3">Próximos Jogos</h2>
-    <div class="table-responsive">
-      <table id="games-table" class="table table-striped table-bordered">
-        <thead class="table-dark">
-          <tr>
-            <th>Data</th>
-            <th>Horário</th>
-            <th>Local</th>
-            <th>Equipe A</th>
-            <th>Equipe B</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Linhas serão inseridas pelo JS -->
-        </tbody>
-      </table>
-    </div>
-  </main>
+    <footer class="text-center py-3">
+        <p>© 2025 Campeonato Municipal</p>
+    </footer>
 
-  <footer class="text-center py-3 mt-4 border-top">
-    <small>© 2025 Prefeitura Municipal</small>
-  </footer>
-
-  <!-- Biblioteca para parse CSV -->
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"
-    integrity="sha512-...omitted..."
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"></script>
-
-  <script>
-    // 1) Substitua por seu ID de planilha
-    const sheetID = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS4mhIEWdzwEQHz3eYdjU_4cZTBXddYsCcL1LVeBiCeqXiBxerwDoxGywmMdTG2LPypeq1aO7OyrsvZ/pubhtml';
-    // 2) URL que retorna o CSV publicado
-    const csvUrl = `https://docs.google.com/spreadsheets/d/${sheetID}/export?format=csv`;
-
-    // 3) Função para buscar e renderizar a tabela
-    fetch(csvUrl)
-      .then(res => res.text())
-      .then(csvText => {
-        const parsed = Papa.parse(csvText, { header: true }).data;
-        const tbody = document.querySelector('#games-table tbody');
-        parsed.forEach(row => {
-          // pular linhas em branco
-          if (!row.Data) return;
-          const tr = document.createElement('tr');
-          ['Data','Horario','Local','EquipeA','EquipeB'].forEach(col => {
-            const td = document.createElement('td');
-            td.textContent = row[col] || '';
-            tr.appendChild(td);
-          });
-          tbody.appendChild(tr);
-        });
-      })
-      .catch(err => console.error('Erro ao carregar a planilha:', err));
-  </script>
+    <!-- Bootstrap JS (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
